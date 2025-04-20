@@ -1,12 +1,12 @@
 streamlit==1.22.0
 scikit-learn==1.2.2
 pandas==2.0.3
-numpy==1.24.3
+numpy==1.23.5          # Critical fix
 matplotlib==3.7.1
 seaborn==0.12.2
 rdkit-pypi==2022.9.5
 pennylane==0.32.0
 tensorflow==2.12.0
 pytest==8.3.5
-torch==2.0.0            # Critical fix
-torchvision==0.15.1     # Optional
+torch==2.0.0
+torchvision==0.15.1
